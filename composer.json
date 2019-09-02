@@ -1,0 +1,12 @@
+{
+    "name": "invoicegenerator/invoicegenerator",
+    "description": "https://invoice-generator.com API client library.",
+    "homepage": "https://invoice-generator.com",
+    "license": "GPL-2.0",
+    "keywords": ["invoice", "api", "client"],
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    }
+}
