@@ -10,7 +10,7 @@
         }
     },
     "require": {
-        "nesbot/carbon": "^2.24",
+        "nesbot/carbon": "~1.0|~2.0",
         "wixel/gump": "^1.4",
         "guzzlehttp/guzzle": "~4.0|~5.0|~6.0"
     }
