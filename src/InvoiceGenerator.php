@@ -1,5 +1,7 @@
 <?php
 
+namespace InvoiceGenerator;
+
 use Carbon\Carbon;
 use InvoiceGenerator\Invoiced\Core;
 
@@ -16,9 +18,7 @@ class InvoiceGenerator
     public $t;
 
 
-    public function __construct($invoice_data, $header = FALSE, $currency = FALSE, $validation = FALSE, $download = FALSE)
-
-    {
+    public function __construct($invoice_data, $header = FALSE, $currency = FALSE, $validation = FALSE, $download = FALSE){
         $date = Carbon::now();
         $twoWeeks = Carbon::now()->addWeeks(2);
         $t = new Core();
